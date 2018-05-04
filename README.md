@@ -16,3 +16,9 @@ You can download Sample Webpages and open files with a Browser ( Google Chrome, 
 # index.html
 ![index](https://github.com/MCagriCAGLAR/WisconsinMadisonUniversityWebsiteDesignExample/blob/master/index.PNG "index.html")
 
+# about.html
+![index](https://github.com/MCagriCAGLAR/WisconsinMadisonUniversityWebsiteDesignExample/blob/master/aboutUs.PNG "index.html")
+
+# academics.html
+![index](https://github.com/MCagriCAGLAR/WisconsinMadisonUniversityWebsiteDesignExample/blob/master/academics.PNG "index.html")
+
