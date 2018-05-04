@@ -11,9 +11,8 @@ You can download Sample Webpages and open files with a Browser ( Google Chrome, 
 - Apply
 - Visit
 - Medical History
-- Pharmachology
+- Pharmacology
 
-- 
 # index.html
 ![index](https://github.com/MCagriCAGLAR/WisconsinMadisonUniversityWebsiteDesignExample/blob/master/index.PNG "index.html")
 
