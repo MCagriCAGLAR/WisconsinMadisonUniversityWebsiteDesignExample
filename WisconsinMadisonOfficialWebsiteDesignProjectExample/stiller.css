@@ -1,0 +1,1143 @@
+@charset "utf-8";
+
+body
+{
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+.mySlides
+{
+	display:none;
+}
+
+.divUyari
+{
+	color:#000;
+	font-size:36px;
+	font-family:"Times New Roman", Times, serif;
+}
+/*---------------------------- BUTTON LINK AYARLARI -----------------------*/
+.ideaLink1
+{
+	color:#0479a8;
+	font-weight:700;
+	font-size:15px;
+}
+
+.ideaLink1>a
+{
+	text-decoration:none;
+	color:#0479a8;
+	font-weight:700;
+	font-size:15px;
+}
+
+.ideaLink1>a:hover
+{
+	text-decoration:underline;
+}
+
+.ideaLink1>a:after
+{
+	color:#900;
+	content:' »';
+  	opacity:1;
+}
+
+.ideaLink2
+{
+	color:#FFF;
+	font-weight:700;
+	font-size:15px;
+}
+
+.ideaLink2>a
+{
+	text-decoration:none;
+	color:#FFF;
+	font-weight:700;
+	font-size:15px;
+}
+
+.ideaLink2>a:hover
+{
+	text-decoration:underline;
+}
+
+.ideaLink2>a:after
+{
+	color:#FFF;
+	content:' »';
+  	opacity:1;
+}
+/*-------------------------------------------- HR AYARLARI ----------------------------------- */
+.cizgi 
+{
+    margin: 16px auto 8px;
+    border: none;
+    width: 56px;
+    height: 6px;
+    background-color: #c5050c;
+}
+
+
+.cizgi2 
+{
+    margin: 16px auto 8px;
+    border: none;
+    width: 56px;
+    height: 6px;
+    background-color:#FFF;
+}
+
+.border2
+{
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+}
+
+.border1
+{
+	border-right:1px solid #000;
+}
+/* ----------------------------------------------------EN ÜSTTEKİ MENÜ AYARLARI------------------------------------ */
+nav ul
+{
+	list-style-type:none;
+	margin-left:450px;
+}
+
+nav ul li
+{
+	font-size:12px;
+	float:left;
+}
+
+nav ul li a
+{
+	display:block;
+	color:#FFF;
+	margin-right:15px;
+	padding:10px 7px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+nav ul li a:hover
+{
+	background-color:#333;
+}
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+.anaDiv
+{
+	margin:0;
+	padding:0;
+}
+
+.ustMenu
+{
+	margin:0;
+	padding:0;
+	background-color:#900;
+	width:100%;
+	height:40px;
+}
+
+.ustMenuUL
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.ustMenuUL>li
+{
+	float:left;
+	margin-left:15px;
+	padding-top:35px;
+}
+
+.ustMenuUL>li>a
+{
+	text-decoration:none;
+	color:#FFF;
+	margin-left:15px;
+	font-weight:bold;
+	font-size:15px;
+}
+
+.ustMenuUL>li>a:hover
+{
+	border-bottom:5px solid #FFF;
+}
+
+/* 2. MENU */
+
+.resimMenu
+{
+	background-image:url(resimler/terrace-chairs-1600.jpg);
+	background-size:cover;
+	width:100%;
+	height:550px;
+}
+
+.tutucu
+{
+	width:100%;
+	height:100px;
+	font-family: Verlag,Helvetica Neue,Helvetica,Arial,sans-serif;
+	background: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.7)),to(transparent));
+    background: -webkit-linear-gradient(top,rgba(0,0,0,.7),transparent);
+    background: linear-gradient(180deg,rgba(0,0,0,.7) 0,transparent);
+	
+}
+
+.resimLink
+{
+	background-repeat:no-repeat;
+	margin-left:100px;
+	margin-top:10px;
+	width:30%px;
+	height:100px;
+	float:left;
+
+}
+
+.resimUstMenu
+{
+	width:70%px;
+	height:100px;
+	margin-top:5px;
+	float:left;
+}
+
+
+/* BE A BADGER DIVLERI */
+
+.badger
+{
+	background-color:#900;
+	color:#FFF;
+	text-align:center;
+	padding-top:20px;
+	font-size:40px;
+	font-weight:bold;
+	width:100%;
+	height:200px;
+}
+
+.badgerButtonDiv
+{
+	width:100%;
+	height:100px;
+}
+
+/* BUTON AYARLARI */
+
+.button
+{
+	width:100px;
+}
+
+.button:hover
+{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.badgerButtonUL
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-moz-box;
+	display:-ms-flexbox;	
+	-moz-box-pack:center;
+	-ms-flex-pack:center;
+	justify-content:center;
+}
+
+.badgerButtonUL>li>a
+{
+	float:left;
+	margin-right:15px;
+	margin-top:30px;
+	padding:1em;
+	text-decoration:none;
+	font-size:15px;
+	font-weight:bold;
+	color:#c5050c;
+	background-color:#fff;
+	text-transform:uppercase;
+}
+
+/* HABERLER DIVININ İÇ ELEMANLARI */
+
+.flex-container 
+{
+    display: -webkit-flex;
+    display: flex;
+    width: 1000px;
+    height: 300px;
+	padding-top:30px;
+	position:relative;
+	margin:auto;
+}
+
+.flex-item 
+{
+    background-color:#900;
+    width: 250px;
+    height: 300px;
+}
+
+.flex-item2
+{
+    background-color:#700;
+    width: 250px;
+    height: 300px;
+}
+
+.haberBaslik
+{
+	color:#FFF;
+	margin:20px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	font-size:15px;
+	text-align:left;
+	text-decoration:underline;
+}
+
+.haberIcerik
+{
+	color:#FFF;
+	margin:20px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	text-align:left;
+}
+
+.news
+{
+	background-color:#CCC;
+	width:100%;
+	height:530px;
+	color:#900;
+	text-align:center;
+	padding-top:20px;
+	font-size:40px;
+	font-weight:bold;
+}
+
+/* READ MORE BUTTON OLAYLARI */
+
+.readmoreButton
+{
+	background-color:#900;
+	color:#FFF;
+	font-weight:bold;
+	font-size:18px;
+	width:1000px;
+	height:50px;
+	position:relative;
+	margin:auto;
+	cursor:pointer;
+}
+
+.readmoreButton:hover
+{
+	background-color:#600;
+	transition:1s;
+}
+
+.readmoreButton>span:after 
+{
+  content:'»';
+  opacity:1;
+}
+
+/* DISCOVER DIVI */
+
+.discoBaslik
+{
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:20px;
+}
+
+.discoYazi
+{
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	margin:30px;
+	text-align:justify;
+	text-decoration:none;
+	font-size:15px;
+}
+
+.flex-containerDisco
+{
+    display: -webkit-flex;
+    display: flex;
+	padding-top:20px;
+    width:1100px;
+    height:275px;
+	position:relative;
+	margin:auto;
+}
+
+.flex-containerDisco2
+{
+    display: -webkit-flex;
+    display: flex;
+    width:1100px;
+    height:275px;
+	position:relative;
+	margin:auto;
+}
+
+
+.flex-itemDisco1
+{
+    width:550px;
+    height:275px;
+}
+
+.flex-itemDiscoLimitless
+{
+    width:550px;
+    height:275px;
+	background-image:url(resimler/limitless.JPG);
+	background-size:cover;
+}
+
+.flex-itemDisco2
+{
+    width:275px;
+    height:275px;
+}
+
+.discoDiv
+{
+	background-color:transparent;
+	width:100%;
+	height:725px;
+	color:#900;
+	text-align:center;
+	padding-top:20px;
+	font-size:40px;
+	font-weight:bold;
+}
+
+/* GEÇİŞLİ FOTOĞRAF ALBÜMÜ */
+
+.experiencesDiv
+{
+	background-color:#CCC;
+	width:100%;
+	height:600px;
+	color:#900;
+	text-align:center;
+	padding-top:20px;
+	font-size:40px;
+	font-weight:bold;
+}
+
+.divSlider
+{
+	padding:25px;
+	width:70%;
+	height:400px;
+	margin:auto;
+}
+
+/* THE WISCONSIN IDEA */
+
+.yaziLink
+{
+	color:#FFF;
+	font:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	text-decoration:none;
+	float:left;
+	padding-top:200px;
+}
+
+.yaziLink:hover
+{
+	text-decoration:underline;
+}
+
+.yaziLink:after
+{
+	content:'»';
+  	opacity:1;
+}
+
+.ideaDiv
+{
+	background-color:transparent;
+	width:100%;
+	height:725px;
+	color:#900;
+	text-align:center;
+	padding-top:20px;
+	font-size:40px;
+	font-weight:bold;
+}
+
+/* ----------------------FOOTER ALT MENU DIV ---------------------*/
+
+footer
+{
+	background-color:#282728;
+}
+
+.footer1div
+{
+	background-color:#282728;
+	width:25%;
+	height:300px;
+	padding-top:100px;
+	color:#FFF;
+	float:left;
+}
+
+/* FOOTER 2.DIV AYARLARI */
+
+.footer2div
+{
+	background-color:#282728;
+	padding-top:70px;
+	width:25%;
+	height:300px;
+	text-align:center;
+	color:#CCC;
+	float:left;
+}
+
+.footer2div>ul
+{
+	list-style-type:none;
+}
+
+.footer2div>ul>li
+{
+	margin-left:75px;
+	margin-bottom:5px;
+	text-align:left;
+}
+
+.footer2div>ul>li>a
+{
+	text-decoration:none;
+	color:#CCC;
+}
+
+.footer2div>ul>li>a:hover
+{
+	color:#FFF;
+	text-decoration:underline;
+}
+/* FOOTER 3.DIV AYARLARI */
+.footer3div
+{
+	background-color:#282728;
+	padding-top:70px;
+	width:25%;
+	height:300px;
+	text-align:center;
+	color:#CCC;
+	float:left;
+}
+
+.footer3div>ul
+{
+	list-style-type:none;
+}
+
+.footer3div>ul>li
+{
+	margin-left:67px;
+	margin-bottom:5px;
+	text-align:left;
+}
+
+.footer3div>ul>li>a
+{
+	text-decoration:none;
+	color:#CCC;
+}
+
+.footer3div>ul>li>a:hover
+{
+	color:#FFF;
+	text-decoration:underline;
+}
+/* FOOTER 4.DIV AYARLARI */
+.footer4div
+{
+	background-color:#282728;
+	width:24%;
+	height:300px;
+	text-align:center;
+	float:left;
+}
+
+.footer4div>ul
+{
+	list-style-type:none;
+	margin-top:90px;
+}
+
+.footer4div>ul>li
+{
+	margin-left:30px;
+	margin-bottom:5px;
+	margin-top:30px;
+	text-align:left;
+}
+
+.footer4div>ul>li>a
+{
+	text-decoration:none;
+	color:#CCC;
+	font-weight:bold;
+}
+
+
+.footer4div>ul>li>a:hover
+{
+	color:#FFF;
+	text-decoration:underline;
+}
+
+.footerAltyazi
+{
+	margin:0;
+	padding:0;
+	background-color:#282728;
+	text-align:center;
+	color:#CCC;
+	font-weight:bold;
+	font-size:12px;
+	width:100%;
+	height:50px;
+	clear:both;
+}
+.footerAltyazi>a
+{
+	color:#CCC;
+	text-decoration:none;
+}
+.footerAltyazi>a:hover
+{
+	text-decoration:underline;
+	color:#FFF;
+}
+
+/*-----------------------------------------FOOTERDAKI LINKLERIN AYARLARI----------------------------------------*/
+
+#uw-footer-action ul
+{
+	border-bottom:5px solid #F00;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-webkit-flex-direction:column;
+	-moz-box-orient:vertical;
+	-moz-box-direction:normal;
+	-ms-flex-direction:column;
+	flex-direction:column;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+@media screen and (min-width:40.625em)
+{
+	#uw-footer-action ul
+	{
+		-webkit-box-orient:horizontal;
+		-webkit-box-direction:normal;
+		-webkit-flex-direction:row;
+		-moz-box-orient:horizontal;
+		-moz-box-direction:normal;
+		-ms-flex-direction:row;
+		flex-direction:row
+	}
+}
+
+#uw-footer-action li
+{
+	display:block;
+	-webkit-box-flex:1;
+	-webkit-flex:1 auto;
+	-moz-box-flex:1;
+	-ms-flex:1 auto;
+	flex:1 auto;
+	width:100%;
+	list-style-type:none;
+	background-size:cover;
+	height:57vw;
+	border-bottom:2px solid #fff;
+}
+
+@media screen and (min-width:40.625em)
+{
+	#uw-footer-action li
+	{
+		width:25%;
+		-webkit-box-orient:horizontal;
+		-webkit-box-direction:normal;
+		-webkit-flex-direction:row;
+		-moz-box-orient:horizontal;
+		-moz-box-direction:normal;
+		-ms-flex-direction:row;
+		flex-direction:row;
+		height:14vw;
+		border-bottom:0 none transparent;
+	}	
+}
+
+#uw-footer-action li:nth-child(4)
+{
+	border-bottom:0 none transparent;
+}
+
+#uw-footer-action li a
+{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack:center;
+	-webkit-justify-content:center;
+	-moz-box-pack:center;
+	-ms-flex-pack:center;
+	justify-content:center;
+	font-size:9vw;
+	font-weight:800;
+	text-align:center;
+	text-transform:uppercase;
+	color:#fff;
+	text-shadow:0 0 1px rgba(0,0,0,.8),2px 2px 3px rgba(0,0,0,.8);
+	line-height:1em;padding:0;
+	margin:0;
+	background-color:rgba(0,0,0,.6);
+	width:100%;
+	height:100%
+}
+@media screen and (min-width:40.625em)
+{
+	#uw-footer-action li a
+	{
+		font-size:3.3vw
+	}
+}
+
+#uw-footer-action li a:hover
+{
+	background-color:transparent
+}
+
+#uw-footer-action li a>span
+{
+	display:inline-block;
+	-webkit-align-self:center;
+	-ms-flex-item-align:center;
+	align-self:center
+}
+
+#uw-footer-action li a>span:after
+{
+	content:'';
+	margin-top:2px;
+	height:3px;
+	line-height:3px;
+	font-size:3px;
+	background-color:#fff;
+	display:block;
+	width:100%;
+	-webkit-box-shadow:0 0 1px rgba(0,0,0,.8),2px 2px 3px rgba(0,0,0,.8);
+	box-shadow:0 0 1px rgba(0,0,0,.8),2px 2px 3px rgba(0,0,0,.8);
+	visibility:hidden
+}
+@media screen and (min-width:40.625em)
+{
+	#uw-footer-action li a>span:after
+	{
+		height:4px;
+		line-height:4px;
+		font-size:4px;
+	}
+}
+@media screen and (min-width:68.75em)
+{
+	#uw-footer-action li a>span:after
+	{
+		height:5px;
+		line-height:5px;
+		font-size:5px;
+	}
+}
+#uw-footer-action li a:hover>span:after
+{
+	visibility:visible;
+}
+
+#uw-footer-visit
+{
+	height:14vw;
+	background-image:url(resimler/butonArka.jpg);
+}
+#uw-footer-apply
+{
+	height:14vw;
+	background-image:url(resimler/butonArka4.jpg);
+}
+#uw-footer-jobs
+{
+	height:14vw;
+	background-image:url(resimler/butonArka2.jpg);
+}
+#uw-footer-give
+{
+	height:14vw;
+	background-image:url(resimler/butonArka3.jpg);
+}
+
+
+/* ------------------------------ACADEMICS------------------------------ */
+
+.resimMenuAcademics
+{
+	background-image:url(resimler/academics_resim.jpg);
+	background-size:cover;
+	width:100%;
+	height:550px;
+}
+
+.tutucuAcademics
+{
+	background-color:#FFF;
+	width:100%;
+	height:85px;
+	font-family: Verlag,Helvetica Neue,Helvetica,Arial,sans-serif;
+	
+}
+
+.AustMenuUL
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.AustMenuUL>li
+{
+	float:left;
+	margin-left:15px;
+	padding-top:35px;
+}
+
+.AustMenuUL>li>a
+{
+	text-decoration:none;
+	color:#0a0a0a;
+	margin-left:15px;
+	font-weight:bold;
+	font-size:15px;
+}
+
+.AustMenuUL>li>a:hover
+{
+	color:#F00;
+	border-bottom:5px solid #F00;
+}
+
+/*--------------------------------------------------GOVDE--------------------------------------*/
+
+.academicsGovde
+{
+	width:100%;
+	height:450px;
+	background-color:#FFC;
+}
+
+.academicsGovdeYazi
+{
+	padding-left:220px;
+	padding-right:30px;
+	color:#900;
+	text-align:left;
+	padding-top:20px;
+	font-size:40px;
+	font-weight:bold;
+	width:40%;
+	height:420px;
+	float:left;
+}
+
+.academicsGovdeTablo
+{
+	background-color:#FFF;
+	width:20%;
+	height:420px;
+	float:left;
+	border-bottom:3px solid #F00;
+}
+
+.academicsGovde2
+{
+	width:100%;
+	height:250px;
+	background-color:#FFC;
+}
+
+.academicsGovdeTablo2
+{
+	margin-left:300px;
+	background-color:#FFF;
+	width:50%;
+	height:220px;
+	float:left;
+	border-bottom:3px solid #F00;
+}
+.academicsGovde3
+{
+	padding-top:0px;
+	margin-top:0px;
+	width:100%;
+	height:150px;
+	background-color:#FFC;
+}
+
+.academicGovde4
+{
+	background-color:transparent;
+}
+
+.govde4link
+{
+	
+}
+
+.govde4link>a
+{
+	color:#0479a8;
+	text-decoration:none;
+}
+
+.govde4link>a:hover
+{
+	text-decoration:underline;
+}
+
+.academicsGovde5
+{
+	background-color:#FFC;
+	width:100%;
+	height:100px;
+}
+
+.h2department
+{
+	margin-top:0px;
+	padding-top:30px;
+	text-align:center;
+}
+
+.h2department>a
+{
+	color:#0479a8;
+	font-weight:bold;
+	font-size:30px;
+	text-decoration:underline;
+}
+
+.h2department>a:hover
+{
+	color:#c5050c;
+	text-decoration:underline;
+}
+
+.uw-callout-header 
+{
+	text-align:center;
+    font-size: 14px;
+    color: #646569;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.AhaberIcerik
+{
+	color:#333;
+	margin:0px;
+	margin-top:40px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	text-align:left;
+}
+
+/*------------------------------------------------------FARMAKOLOJI---------------------------------------------*/
+
+.babaDiv
+{
+	margin:auto;
+	background-color:transparent;
+	width:60%;
+	height:750px;
+}
+
+.babaBanner
+{
+	width:100%;
+	height:150px;
+	background-image:url(resimler/farmakoloji.jpg);
+	background-repeat:no-repeat;
+}
+
+.babaGovde
+{
+	
+}
+
+.babaGovdeYazi
+{
+	color:#000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:x-large;
+}
+
+.babaGovdeYazi>a
+{
+	color:#00F;
+	text-decoration:none;
+}
+
+.babaGovdeYazi>a:hover
+{
+	color:#F00;
+	text-decoration:none;
+}
+
+/*--------------------------------------------------MEDICAL HISTORY---------------------------------------------*/
+
+.ust
+{
+	width:100%;
+	height:50px;
+	background-color:#900;
+	text-align:center;
+	color:#FFF;
+	font-weight:bold;
+	font-size:24px;
+	padding-top:5px;
+}
+
+.medicalBanner
+{
+	width:100%;
+	height:120px;
+	background-image:url(resimler/medicalHistory_Banner.jpg);
+}
+
+.medicalGovde
+{
+	background-color:#FFF;
+	width:100%;
+	height:500px;
+}
+
+.medicalGovde2
+{
+	width:50%;
+	height:350px;
+	float:left;
+}
+
+.medicalGovde3
+{
+	width:49%;
+	height:350px;
+	float:left;
+}
+
+.medicalMenu
+{
+	margin-top:0px;
+	padding-top:0px;
+	background:#B57F6D;
+	width:100%;
+	height:50px;
+}
+
+.medicalMenu>ul
+{
+	float:left;
+	list-style-type:none;
+}
+
+.medicalMenu>ul>li
+{
+	float:left;
+	margin-right:5px;
+	display:block;
+}
+
+.medicalMenu>ul>li>a
+{
+	text-decoration:none;
+	padding:10px;
+	color:#FFF;
+}
+
+.medicalMenu>ul>li>a:hover
+{
+	background-color:#900;
+}
+
+/*-------------------------------------ABOUT--------------------------------------*/
+
+.resimMenuAbout
+{
+	background-image:url(resimler/about_resim.jpg);
+	background-size:cover;
+	width:100%;
+	height:550px;
+}
+
+/*--------------------------------------APPLY-----------------------------*/
+
+.resimMenuApply
+{
+	background-image:url(resimler/apply_resim.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;
+	height:550px;
+}
+
+/*-----------------------------------------VISIT-------------------------------*/
+
+.resimMenuVisit
+{
+	background-image:url(resimler/visit_resim.jpg);
+	background-repeat:no-repeat;
+	width:100%;
+	height:550px;
+}

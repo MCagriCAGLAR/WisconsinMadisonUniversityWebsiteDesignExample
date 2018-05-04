@@ -1,0 +1,307 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>Cagri CAGLAR</title>
+
+<link rel="stylesheet" type="text/css" href="stiller.css">
+
+<script>
+
+	var slideIndex = 1;
+	showDivs(slideIndex);
+	
+	function plusDivs(n)
+	{
+		showDivs(slideIndex += n);
+	}
+	
+	function MCC()
+	{
+		var x = document.getElementsByClassName("mySlides");
+		x[slideIndex - 1].style.display = "block";
+	}
+	
+	function showDivs(n)
+	{
+		var i;
+		var x = document.getElementsByClassName("mySlides");
+		
+		if( n > x.length )
+		{
+			slideIndex = 1;
+		}
+		
+		if( n < 1 )
+		{
+			slideIndex = x.length;
+		}
+		
+		for( i=0; i < x.length; i++)
+		{
+			x[i].style.display = "none";
+		}
+		x[slideIndex - 1].style.display = "block";
+	}
+
+</script>
+
+</head>
+
+<body onLoad="MCC()">
+
+<div class="anaDiv">
+	<div class="divUyari">
+    	THIS DESIGN IS USED FOR THE PROJECT HOMEWORK FOR THE WEB DESIGN COURSE OF COMPUTER ENGINEERING DEPARTMENT OF KOCAELI UNIVERSITY ON THE OFFICIAL WEB SITE OF UNIVERSITY OF WISCONSIN - MADISON. THERE IS NO OFFICAL VALIDITY. FOR SOURCE SITE <a href="http://www.wisc.edu/" target="_blank">CLICK</a>
+    </div>
+
+	<div class="ustMenu">
+        <nav>
+            <ul>
+                <li class="border2"><a href="#">MyUW</a>
+                <li><a href="#">LIBRARIES</a></li>
+                <li><a href="#">MAP</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li class="border1"><a href="about.html">ABOUT UW</a></li>
+                <li><a href="visit.html">VISIT</a></li>
+                <li><a href="apply.html">APPLY</a></li>
+                <li><a href="#">JOBS</a></li>
+                <li class="border1"><a href="#">GIVE</a></li>
+            </ul>
+        </nav>
+    </div>
+   
+    <div class="resimMenu">
+    
+    	<div class="tutucu">
+        	<div class="resimLink">
+        	<a href="index.html"> <img src="resimler/uw-crest-wordmark-overlay.svg" width="350px" height="75px" /> </a>
+        	</div>
+        
+            <div class="resimUstMenu">
+                <ul class="ustMenuUL">
+                    <li><a href="academics.html">ACADEMICS</a>
+                    <li><a href="#">ADMISSION</a>
+                    <li><a href="#">CAMPUS LIFE</a>
+                    <li><a href="#">RESEARCH</a>
+                    <li><a href="#">PUBLIC SERVICE</a>
+                    <li><a href="#">ATHLETICS</a>
+                    <li><button type="button" style="background-image:url(resimler/search_arka.JPG); width:50px; height:50px;"></button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="badger">
+    	<hr class="cizgi2">
+        BE A BADGER
+        
+        <div class="badgerButtonDiv">
+       		<ul class="badgerButtonUL">
+            	<li><a class="button" href="visit.html">Visit</a></li>
+                <li><a class="button" href="apply.html">Apply</a></li>
+                <li><a class="button" href="https://jobs.wisc.edu/">Jobs</a></li>
+                <li><a class="button" href="https://secure.allwaysforward.org/give/?utm_source=wisc&utm_medium=web&utm_content=button&utm_campaign=ac16&channel=web">Give</a></li>
+            </ul>
+        </div>
+      
+    </div>
+    
+    <div class="news">
+    	<hr class="cizgi">
+        UW NEWS
+        
+        <div class="flex-container">
+        
+        	<div class="flex-item">
+            	<hr class="cizgi2">
+            	<p class="haberBaslik">GIFTS WITH BADGER APPEAL: BROWSE OUR ANNUAL GIFT GUIDE</p>
+                <a href="https://umark.wisc.edu/gift-guide/"><img src="resimler/gift-guide-01.jpeg" width="250" height="182"/></a>
+            </div>
+            
+            <div class="flex-item2">
+            	<hr class="cizgi2">
+                <p class="haberBaslik">MEMORIAL UNION FIRST FLOOR TO REOPEN ON DEC. 5</p>
+                <p class="haberIcerik">The Daily Scoop, Badger Market and Peet’s Coffee & Tea will begin serving customers, and                 comfortable study space will be available.</p>
+            </div>
+            
+            <div class="flex-item">
+                <a href="http://news.wisc.edu/food-scientist-aiding-fuel-ethanol-with-new-engineered-bacteria/">
+                <img src="resimler/steele-horiz-450x280.jpg" height="160px"/></a>
+                <hr class="cizgi2">
+                <p class="haberBaslik">FOOD SCIENTIST TURNS ETHANOL PROBLEM INTO SOLUTION</p>   
+            </div>
+            
+            <div class="flex-item2">
+            	<hr class="cizgi2">
+                <p class="haberBaslik">JO HANDELSMAN NAMED DIRECTOR OF UW'S WISCONSIN INSTITUTE FOR DISCOVERY</p>
+                <p class="haberIcerik">Handelsman, a Yale professor and White House science official, has a long history with 		                UW-Madison.</p>
+            </div>
+            
+        </div>
+        
+        <a href="http://news.wisc.edu/"><button class="readmoreButton" style="vertical-align:middle"><span>READ MORE UW NEWS</span		         ></button></a>
+    
+    </div>
+    
+    <div class="discoDiv">
+    	<hr class="cizgi">
+        DISCOVER UW
+        
+        <div class="flex-containerDisco">
+        	<div class="flex-itemDisco1" style="background-color:#900">
+            	<hr class="cizgi2">
+                <p class="discoBaslik">JOIN A COMMUNITY OF VISIONARIES</p>
+                <p class="discoYazi">"We believe the great state University of Wisconsin should ever encourage that continual and                fearless sifting and winnowing by which alone the truth can be found."</p>
+                <p class="discoYazi" style="text-align:right">— 1894 Wisconsin Magna Carta</p>
+            </div>
+            
+            <div class="flex-itemDisco2">
+            	<a href="http://map.wisc.edu/">
+                <img src="resimler/campus-map.png" height="275" width="275"/>
+                </a>
+            </div>
+            
+            <div class="flex-itemDisco2">
+            	<p class="discoBaslik" style="color:#900; padding-top:20px; padding-bottom:0;">TOP</p>
+                <p class="discoBaslik" style="color:#900; font-size:50px; padding-top:0px; margin:0px;">10</p>
+                <p class="discoYazi" style="color:#000; font-size:12px; padding-top:0px; margin-top:0px;">in national research                 spending every year since 1972</p>
+                <p class="ideaLink1"><a href="#">RESEARCH</a></p>
+            </div> 
+        </div>
+        
+        <div class="flex-containerDisco2">
+        	<div class="flex-itemDisco2">
+            	<a href="http://social.wisc.edu/"><img src="resimler/uw-social.jpg" width="275" height="275"/></a>
+            </div>
+            
+            <div class="flex-itemDisco2" style="background-color:#999">
+            	<p class="discoBaslik" style="color:#FFF; padding-top:20px; padding-bottom:0;">TOP</p>
+                <p class="discoBaslik" style="color:#FFF; font-size:50px; padding-top:0px; margin:0px;">10</p>
+                <p class="discoYazi" style="color:#FFF; font-size:12px; padding-top:0px; margin-top:0px;">in producing Fortune 500                CEOs</p>
+                <p class="ideaLink2"><a href="#">UNIVERSITY RANKING</a></p>
+            </div>
+            
+            <div class="flex-itemDiscoLimitless">
+            	<div class="badgerButtonDiv">
+                    <ul class="badgerButtonUL">
+                        <li><a class="button" href="visit.html" style="width:152px; height:15px; margin-top:175px;">plan your                         visit</a></li>
+                    </ul>
+        		</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="experiencesDiv">
+    	<hr class="cizgi">
+        UW EXPERIENCES
+        
+        <div class="divSlider">
+            	<img class="mySlides" src="resimler/experiences_foto1.jpg" width="100%" height="400px"/>
+                <img class="mySlides" src="resimler/experiences_foto2.jpg" width="100%" height="400px"/>
+                <img class="mySlides" src="resimler/experiences_foto3.jpg" width="100%" height="400px"/>
+                
+            	<a class="w3-btn-floating w3-display-left" onClick="plusDivs(-1)">&#10094;</a>
+                <a class="w3-btn-floating w3-display-right" onClick="plusDivs(+1)">&#10095;</a>
+        </div>
+    </div>
+    
+    <div class="ideaDiv">
+    	<hr class="cizgi">
+        THE WISCONSIN IDEA
+        
+        <div class="flex-containerDisco">
+        	<div class="flex-itemDisco1" style="background-color:#900">
+            	<hr class="cizgi2">
+                <p class="haberIcerik" style="text-align:center; margin:40px; font-size:25px; font-style:italic; font-weight:100;"                 >The Wisconsin Idea is our pledge to the state, the nation, and the world that our endeavors will benefit all    	                 citizens.</p>    
+            </div>
+            
+            <div class="flex-itemDisco2" style="border:1px solid #300;">
+            	<p class="discoBaslik" style="color:#F00; padding-top:50px; padding-bottom:0; margin:0; font-size:35px;">17,000
+                </p>
+                <p class="discoYazi" style="color:#000; font-size:15px; padding-top:15px; margin-top:0px;">lifelong learners          	    benefit from UW education programs yearly</p>
+                <p class="ideaLink1"><a href="#">LIFELONG LEARNING</a></p>
+            </div>
+            
+            <div class="flex-itemDisco2" style="border:1px solid #300; background-color:#999;">
+            	<p class="discoBaslik" style="color:#F00; padding-top:50px; padding-bottom:0; margin:0; font-size:35px;">19</p>
+                <p class="discoYazi" style="color:#000; font-size:15px; padding-top:15px; margin-top:0px;">Nobel Prize awards to                UW faculty and alumni</p>
+                <p class="ideaLink2" style="padding-top:15px;"><a href="#">THE WINNERS</a></p>
+            </div> 
+        </div>
+        
+        <div class="flex-containerDisco2">
+        	<div class="flex-itemDisco2" style="border:1px solid #300;">
+            	<p class="discoBaslik" style="color:#F00; padding-top:50px; padding-bottom:0; margin:0; font-size:35px;">50</p>
+                <p class="discoYazi" style="color:#000; font-size:15px; padding-top:15px; margin-top:0px;">years dedicated to                studying poverty and social inequality</p>
+                <p class="ideaLink1"><a href="#">RESEARCH</a></p>
+            </div>
+            
+            <div class="flex-itemDisco2" style="background-color:#999">
+            	<p class="discoBaslik" style="color:#F00; padding-top:50px; padding-bottom:0; margin:0; font-size:35px;">37,000
+                </p>
+                <p class="discoYazi" style="color:#000; font-size:15px; padding-top:15px; margin-top:0px;">service hours logged by                Badger Volunteers for 2014–15</p>
+                <p class="ideaLink2"><a href="#">PUBLIC SERVICE</a></p>
+            </div>
+            
+            <div class="flex-itemDisco1" style="border:1px solid #300; background-color:#900;">
+            	<a href="http://www.wisc.edu/wisconsin-idea/"><img src="resimler/wisconsin-white-lines.png" style="float:left;                 margin-top:50px; height:225px;"/></a>
+                <a class="yaziLink" href="http://www.wisc.edu/wisconsin-idea/"><h3>THE WISCONSIN IDEA IN ACTION
+                </h3></a>
+            </div>
+        </div>
+    </div>
+    
+	<footer>
+    	<nav id="uw-footer-action">
+        	<ul>
+            	<li id="uw-footer-visit"><a href="visit.html"><span>Visit</span></a></li>
+                <li id="uw-footer-apply"><a href="apply.html"><span>Apply</span></a></li>
+                <li id="uw-footer-jobs"><a href="https://jobs.wisc.edu/"><span>Jobs</span></a></li>
+                <li id="uw-footer-give"><a href="give.html"><span>Give</span></a></li>
+            </ul>
+        </nav>
+        
+        <div class="footer1div">
+        	<a href="http://www.wisc.edu"><img src="resimler/uw-crest-wordmark-overlay.svg"/></a>
+        </div>
+        <div class="footer2div">
+        	<h4>RESOURCES</h4>
+            <ul>
+            	<li><a href="">Alumni</a></li>
+                <li><a href="">Working at UW</a></li>
+                <li><a href="">Business & Industry	</a></li>
+                <li><a href="">International</a></li>
+                <li><a href="">Parents</a></li>
+                <li><a href="">Students</a></li>
+            </ul>
+        </div>
+        <div class="footer3div">
+            <h4>QUICK LINKS</h4>
+                    <ul>
+                        <li><a href="">Accessibility</a></li>
+                        <li><a href="">Diversity</a></li>
+                        <li><a href="">Governance</a></li>
+                        <li><a href="">Policies</a></li>
+                        <li><a href="">Safety</a></li>
+                        <li><a href="">Title IX</a></li>
+                    </ul>
+        </div>
+        <div class="footer4div">
+        	<ul>
+            	<li><a href="#">CONTACT US</a></li>
+                <li><a href="#">MADISON, WI</a></li>
+                <li><a href="#">ASK BUCKY</a></li>
+            </ul>
+        </div>
+        
+        <div class="footerAltyazi">
+        ©2016 ÇAĞRI ÇAĞLAR - <a href="https://github.com/MCagriCAGLAR">https://github.com/MCagriCAGLAR</a> •<a href="#" style="color:CCC;">ABOUT THIS SITE</a>•<a href="#">MOBILE UW</a>•<a href="#">PRIVACY STATEMENTS</a>
+        </div>
+        
+    </footer>
+</div>
+
+</body>
+</html>
